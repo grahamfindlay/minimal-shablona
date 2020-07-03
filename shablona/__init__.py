@@ -1,1 +1,1 @@
-from .ecephys import *  # noqa
+from .shablona import *  # noqa

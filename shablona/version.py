@@ -25,18 +25,18 @@ CLASSIFIERS = ["Development Status :: 3 - Alpha",
                "Topic :: Scientific/Engineering"]
 
 # Description should be a one-liner:
-description = "ecephys: Python tools for extracellular electrophysiology"
+description = "shablona: Put a one-liner description of your code here"
 # Long description will go up on the pypi page
 long_description = """
-ecephys: Python tools for extracellular electrophysiology
+shablona: Put a longer description of your code here.
 """
 
-NAME = "ecephys"
+NAME = "shablona"
 MAINTAINER = "Graham Findlay"
 MAINTAINER_EMAIL = "gfindlay@wisc.edu"
 DESCRIPTION = description
 LONG_DESCRIPTION = long_description
-URL = "http://github.com/CSC-UW/ecephys"
+URL = "http://github.com/CSC-UW/shablona"
 DOWNLOAD_URL = ""
 LICENSE = "MIT"
 AUTHOR = "Graham Findlay"
@@ -46,6 +46,6 @@ MAJOR = _version_major
 MINOR = _version_minor
 MICRO = _version_micro
 VERSION = __version__
-PACKAGE_DATA = {'ecephys': [pjoin('data', '*')]}
-REQUIRES = ["numpy", "scipy", "matplotlib"]
+PACKAGE_DATA = {'shablona': [pjoin('data', '*')]}
+REQUIRES = ["numpy"]
 PYTHON_REQUIRES = ">= 3.7"
